@@ -15,9 +15,9 @@ export default function App() {
       <div className="p-4">
         <button
           className="mb-4 bg-blue-600 text-white px-4 py-2 rounded"
-          onClick={() => dispatch(login("Ashish"))}
+          onClick={() => dispatch(login("Akash"))}
         >
-          Login as Ashish
+          Login
         </button>
         <Products />
         <Cart />
